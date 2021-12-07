@@ -1,0 +1,93 @@
+.elaunch-nav {
+  background-color: #1d3557;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.elaunch-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+.elaunch-title > p {
+  font-size: 2rem;
+  color: #e63946;
+  font-weight: 700;
+}
+.elaunch-title > span {
+  font-size: smaller;
+  color: #f1faee;
+  font-weight: 500;
+}
+.elaunch-search {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+.elaunch-search > input {
+  width: 450px;
+  height: 35px;
+  padding: 5px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.elaunch-search > input:focus {
+  outline: none;
+}
+.elaunch-search > button {
+  height: 35px;
+  width: 60px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
+  background-color: #8d99ae;
+  color: #f1faee;
+}
+.elaunch-search > button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.elaunch-cart > button {
+  border-radius: 5px;
+  height: 35px;
+  width: 60px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
+  background-color: #8d99ae;
+  color: #f1faee;
+}
+.elaunch-login-signup > button {
+  height: 35px;
+  width: 60px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: 5ms;
+}
+.elaunch-login-signup > button:hover {
+  transform: scale(1.02);
+}
+.elaunch-search > input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .elaunch-nav {
+    height: 234px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
